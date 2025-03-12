@@ -34,10 +34,14 @@ export const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-24 section-padding">
+    <section id="projects" className="py-24 section-padding relative overflow-hidden">
+      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-white to-secondary/10" />
+      <div className="absolute -bottom-32 -right-32 w-64 h-64 bg-primary/10 rounded-full blur-3xl" />
+      <div className="absolute -top-32 -left-32 w-80 h-80 bg-accent/10 rounded-full blur-3xl" />
+      
       <div className="max-w-7xl mx-auto">
         <AnimatedSection animation="fade-up" className="mb-16 text-center">
-          <h2 className="text-heading-2 mb-4">My Projects</h2>
+          <h2 className="text-heading-2 mb-4 gradient-text">My Projects</h2>
           <p className="text-body text-muted-foreground max-w-2xl mx-auto">
             Explore a selection of my recent work showcasing my skills and expertise across
             different technologies and design approaches.
@@ -52,10 +56,10 @@ export const Projects = () => {
               delay={200 + index * 100}
               className="group"
             >
-              <div className="h-full flex flex-col bg-white rounded-xl overflow-hidden shadow-subtle hover:shadow-elevation transition-all duration-300">
+              <div className="h-full flex flex-col bg-white rounded-xl overflow-hidden shadow-subtle hover:shadow-elevation transition-all duration-300 border border-primary/5 hover:border-primary/20">
                 {/* Project Image */}
                 <div className="aspect-video bg-muted relative overflow-hidden">
-                  <div className="w-full h-full bg-gradient-to-br from-primary/5 to-secondary/50 flex items-center justify-center">
+                  <div className="w-full h-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
                     <span className="text-muted-foreground text-sm">Project Image</span>
                   </div>
                   
@@ -68,7 +72,7 @@ export const Projects = () => {
                         href={project.linkUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-12 h-12 rounded-full bg-white flex items-center justify-center text-primary hover:bg-white/90 transition-colors"
+                        className="w-12 h-12 rounded-full bg-white flex items-center justify-center text-primary hover:bg-white/90 transition-colors transform hover:scale-110 duration-200"
                       >
                         <ExternalLink size={20} />
                       </a>
@@ -90,7 +94,7 @@ export const Projects = () => {
                     {project.tags.map((tag, tagIndex) => (
                       <span
                         key={tagIndex}
-                        className="px-3 py-1 bg-secondary rounded-full text-sm text-muted-foreground"
+                        className="px-3 py-1 bg-secondary rounded-full text-sm text-muted-foreground border border-primary/10"
                       >
                         {tag}
                       </span>

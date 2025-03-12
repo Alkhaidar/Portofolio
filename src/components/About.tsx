@@ -15,14 +15,17 @@ export const About = () => {
   return (
     <section 
       id="about" 
-      className="py-24 section-padding bg-secondary/30"
+      className="py-24 section-padding relative"
     >
+      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-white to-secondary/30" />
+      <div className="absolute top-0 left-0 w-full h-24 bg-gradient-to-b from-white to-transparent -z-10" />
+      
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
           {/* About Content */}
           <div className="order-2 md:order-1">
             <AnimatedSection animation="fade-up">
-              <h2 className="text-heading-2 mb-6">About Me</h2>
+              <h2 className="text-heading-2 mb-6 gradient-text">About Me</h2>
             </AnimatedSection>
             
             <AnimatedSection animation="fade-up" delay={200}>
@@ -58,12 +61,12 @@ export const About = () => {
             <AnimatedSection animation="fade-in" delay={200}>
               <div className="relative">
                 <div className="aspect-square bg-muted rounded-lg overflow-hidden shadow-elevation">
-                  <div className="w-full h-full bg-gradient-to-br from-primary/5 to-secondary/50 flex items-center justify-center">
+                  <div className="w-full h-full bg-gradient-to-br from-primary/5 to-accent/10 flex items-center justify-center">
                     <span className="text-muted-foreground text-sm">Your Profile Image</span>
                   </div>
                 </div>
-                <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-primary rounded-lg -z-10"></div>
-                <div className="absolute -top-6 -left-6 w-24 h-24 border-2 border-primary rounded-lg -z-10"></div>
+                <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-primary/60 rounded-lg -z-10"></div>
+                <div className="absolute -top-6 -left-6 w-24 h-24 border-2 border-accent/60 rounded-lg -z-10"></div>
               </div>
             </AnimatedSection>
           </div>

@@ -32,10 +32,13 @@ export const WorkExperience = () => {
   ];
 
   return (
-    <section id="experience" className="py-24 section-padding">
+    <section id="experience" className="py-24 section-padding relative">
+      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-secondary/30 to-white" />
+      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-white to-transparent -z-10" />
+      
       <div className="max-w-7xl mx-auto">
         <AnimatedSection animation="fade-up">
-          <h2 className="text-heading-2 mb-10">Work Experience</h2>
+          <h2 className="text-heading-2 mb-10 gradient-text">Work Experience</h2>
         </AnimatedSection>
 
         <div className="space-y-10">
@@ -46,17 +49,17 @@ export const WorkExperience = () => {
               delay={index * 200}
               className="relative border-l-2 border-primary/20 pl-8 pb-2"
             >
-              <div className="absolute -left-3 top-0 bg-background p-1 rounded-full border-2 border-primary/20">
+              <div className="absolute -left-3 top-0 bg-background p-1 rounded-full border-2 border-primary shadow-[0_0_10px_rgba(120,119,198,0.3)]">
                 <Briefcase size={20} className="text-primary" />
               </div>
               
-              <div>
-                <h3 className="text-heading-3 mb-1">{work.title}</h3>
+              <div className="group hover:transform hover:translate-x-1 transition-transform duration-300">
+                <h3 className="text-heading-3 mb-1 group-hover:text-primary transition-colors">{work.title}</h3>
                 <div className="flex items-center gap-1 text-muted-foreground mb-2">
                   <span className="font-medium">{work.company}</span>
                   <span className="text-muted-foreground/50">•</span>
                   <div className="flex items-center gap-1 text-sm">
-                    <CalendarDays size={14} />
+                    <CalendarDays size={14} className="text-accent" />
                     <span>{work.period}</span>
                   </div>
                 </div>
