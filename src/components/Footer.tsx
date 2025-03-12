@@ -57,17 +57,17 @@ export const Footer = () => {
             <ul className="flex space-x-6 text-sm">
               <li>
                 <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Privacy
+                 
                 </a>
               </li>
               <li>
                 <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Terms
+                 
                 </a>
               </li>
               <li>
                 <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Cookies
+                
                 </a>
               </li>
             </ul>

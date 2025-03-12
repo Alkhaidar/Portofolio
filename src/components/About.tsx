@@ -26,7 +26,7 @@ export const About = () => {
           <div className="order-2 md:order-1">
             <AnimatedSection animation="fade-up">
               <h2 className="text-heading-2 mb-6 gradient-text">About Me</h2>
-              <p className="text-body">Hi, My name is <strong>Al Khaidar, S.Tr.Kom.</strong>.</p>
+              <p className="text-body">Hi, My name is <strong>Al Khaidar, S.Tr.Kom.</strong></p>
             </AnimatedSection>
             
             <AnimatedSection animation="fade-up" delay={200}>
