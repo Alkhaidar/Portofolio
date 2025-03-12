@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin, Instagram } from "lucide-react";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -19,7 +19,7 @@ export const Footer = () => {
           
           <div className="flex space-x-4">
             <a 
-              href="#" 
+              href="" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-muted-foreground hover:text-primary transition-colors shadow-subtle"
@@ -28,7 +28,7 @@ export const Footer = () => {
               <Github size={18} />
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/al-khaidar/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-muted-foreground hover:text-primary transition-colors shadow-subtle"
@@ -37,20 +37,20 @@ export const Footer = () => {
               <Linkedin size={18} />
             </a>
             <a 
-              href="#" 
+              href="https://www.instagram.com/darr_sarenaa17/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-muted-foreground hover:text-primary transition-colors shadow-subtle"
-              aria-label="Twitter"
+              aria-label="Instagram"
             >
-              <Twitter size={18} />
+              <Instagram size={18} />
             </a>
           </div>
         </div>
         
         <div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} Portfolio. All rights reserved.
+            © {currentYear} Portfolio. Al Khaidar, S.Tr.Kom.
           </p>
           
           <div className="mt-4 md:mt-0">

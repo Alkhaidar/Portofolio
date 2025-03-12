@@ -12,22 +12,22 @@ interface WorkItem {
 export const WorkExperience = () => {
   const workHistory: WorkItem[] = [
     {
-      title: "Senior Web Developer",
-      company: "Tech Innovations Inc.",
-      period: "2020 - Present",
-      description: "Lead development of enterprise web applications using React, Node.js, and GraphQL. Managed a team of five developers and implemented CI/CD pipelines that reduced deployment time by 40%."
+      title: "Visual Communication Design Teacher",
+      company: "SMK SWASTA ULUMUDDIN",
+      period: "Juli 2024 - Present",
+      description: "Sebagai Guru Desain Grafis dan TPAV di SMK Ulumuddin Boarding School di Lhokseumawe, Aceh, saya memiliki semangat untuk menginspirasi siswa dalam menciptakan karya visual dan multimedia yang luar biasa. Dengan keahlian dalam desain grafis, pengeditan video/audio, dan produksi sinematik, saya membimbing dan membina siswa untuk memanfaatkan kreativitas mereka serta mengembangkan keterampilan dalam desain dan teknologi multimedia. Pendekatan saya menggabungkan kreativitas dengan pengetahuan teknis, menciptakan lingkungan di mana siswa dapat berkembang dalam dunia penceritaan visual dan seni digital."
     },
     {
-      title: "Frontend Developer",
-      company: "Digital Solutions Ltd.",
-      period: "2018 - 2020",
-      description: "Developed responsive user interfaces for clients in finance and healthcare sectors. Implemented state management with Redux and improved application performance by 30%."
+      title: "Network Techician",
+      company: "PT. Medianusa Permana",
+      period: "Maret 2023 - Juli 2023",
+      description: "Selama magang saya sebagai Teknisi Jaringan di PT. Medianusa Permana dari Maret hingga Juli 2023, saya bertanggung jawab dalam pemasangan dan pemeliharaan peralatan, membantu teknisi senior dalam pemecahan masalah, serta memastikan kinerja perangkat tetap optimal. Peran ini memungkinkan saya untuk mengasah keterampilan teknis dan ketelitian, memastikan semua sistem berjalan dengan lancar. Sebagai bagian dari magang, saya terlibat dalam proyek penting di mana saya membantu pemasangan 500 Access Point di JW Marriott Hotel Medan. Menggunakan perangkat ARUBA Access Point, proyek ini bertujuan untuk meningkatkan cakupan dan kualitas Wi-Fi di seluruh hotel, memberikan akses internet yang cepat dan stabil bagi tamu dan staf, serta memperkuat infrastruktur jaringan untuk mendukung operasional hotel dan meningkatkan pengalaman tamu."
     },
     {
-      title: "Web Developer Intern",
-      company: "CreativeTech Studio",
-      period: "2017 - 2018",
-      description: "Assisted in building and maintaining client websites. Gained hands-on experience with HTML, CSS, JavaScript, and modern frontend frameworks."
+      title: "IT Techician",
+      company: "Razan Computer",
+      period: "Januari 2019 - Februari 2019",
+      description: "Selama magang di Razan Komputer, saya memperoleh pengalaman praktis dalam berbagai tugas seperti instalasi komputer, perawatan printer, dan pemeliharaan perangkat keras secara umum. Saya juga berperan penting dalam mendukung kelancaran pelaksanaan Ujian Nasional di salah satu  SMP dengan menginstal dan mengonfigurasi jaringan IP untuk  komputer, memastikan sistem berjalan dengan lancar selama ujian berlangsung. Pengalaman ini mengasah keterampilan teknis saya dalam instalasi perangkat keras dan perangkat lunak, serta meningkatkan kemampuan saya dalam pemecahan masalah dan pemeliharaan sistem untuk memastikan kinerja yang optimal."
     }
   ];
 

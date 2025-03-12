@@ -69,7 +69,7 @@ export const Contact = () => {
                         "focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary",
                         "transition-all duration-200"
                       )}
-                      placeholder="John Doe"
+                      placeholder="Nama"
                     />
                   </div>
                   <div className="space-y-2">
@@ -88,7 +88,7 @@ export const Contact = () => {
                         "focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary",
                         "transition-all duration-200"
                       )}
-                      placeholder="john@example.com"
+                      placeholder="Email"
                     />
                   </div>
                 </div>
@@ -163,7 +163,7 @@ export const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium mb-1">Location</h4>
-                    <p className="text-muted-foreground">San Francisco, CA</p>
+                    <p className="text-muted-foreground">Buket Rata, Lhokseumawe</p>
                   </div>
                 </div>
                 
@@ -176,10 +176,10 @@ export const Contact = () => {
                   <div>
                     <h4 className="text-sm font-medium mb-1">Email Address</h4>
                     <a 
-                      href="mailto:hello@example.com" 
+                      href="mailto:alkhaidarkutablang@gmail.com" 
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      hello@example.com
+                      alkhaidarkutablang@gmail.com
                     </a>
                   </div>
                 </div>
@@ -191,12 +191,12 @@ export const Contact = () => {
                     </div>
                   </div>
                   <div>
-                    <h4 className="text-sm font-medium mb-1">Phone Number</h4>
+                    <h4 className="text-sm font-medium mb-1">WhatsApp</h4>
                     <a 
-                      href="tel:+11234567890" 
+                      href="https://wa.me/082361138731" 
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      +1 (123) 456-7890
+                      +6282361138731
                     </a>
                   </div>
                 </div>

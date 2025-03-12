@@ -4,12 +4,12 @@ import AnimatedSection from "./AnimatedSection";
 
 export const About = () => {
   const skills = [
+    "Scientific Writer",
+    "Enthusiastic Thinker",
     "Web Development",
     "UI/UX Design",
     "Mobile Development",
     "Project Management",
-    "SEO Optimization",
-    "Digital Marketing"
   ];
 
   return (
@@ -26,21 +26,18 @@ export const About = () => {
           <div className="order-2 md:order-1">
             <AnimatedSection animation="fade-up">
               <h2 className="text-heading-2 mb-6 gradient-text">About Me</h2>
+              <p className="text-body">Hi, My name is <strong>Al Khaidar, S.Tr.Kom.</strong>.</p>
             </AnimatedSection>
             
             <AnimatedSection animation="fade-up" delay={200}>
               <p className="text-body mb-4 text-muted-foreground">
-                I'm a dedicated professional with a passion for creating elegant solutions to complex problems.
-                With several years of experience in the tech industry, I've developed a keen eye for detail
-                and a commitment to excellence.
+              Saya adalah seorang Pemikir Teknologi dan pengembang yang memiliki hasrat dalam menciptakan pengalaman digital yang indah, fungsional, dan berfokus pada pengguna. Selain itu, saya juga seorang guru yang berdedikasi, berkomitmen untuk menginspirasi dan membimbing siswa di bidang teknologi dan desain.
               </p>
             </AnimatedSection>
             
             <AnimatedSection animation="fade-up" delay={400}>
               <p className="text-body mb-6 text-muted-foreground">
-                My approach combines creative thinking with technical expertise to deliver results
-                that not only meet but exceed expectations. I believe in the power of continuous learning
-                and staying at the forefront of emerging technologies.
+              Pendekatan saya menggabungkan pemikiran kreatif dengan keahlian teknis untuk menghasilkan hasil yang tidak hanya memenuhi, tetapi melampaui harapan. Saya percaya pada kekuatan pembelajaran terus-menerus dan tetap berada di garis depan teknologi yang sedang berkembang.
               </p>
             </AnimatedSection>
             
@@ -62,7 +59,7 @@ export const About = () => {
               <div className="relative">
                 <div className="aspect-square bg-muted rounded-lg overflow-hidden shadow-elevation">
                   <div className="w-full h-full bg-gradient-to-br from-primary/5 to-accent/10 flex items-center justify-center">
-                    <span className="text-muted-foreground text-sm">Your Profile Image</span>
+                  <img src="/Fix.jpg" alt="Profile" className="w-full h-full object-cover" />
                   </div>
                 </div>
                 <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-primary/60 rounded-lg -z-10"></div>

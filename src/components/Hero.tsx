@@ -22,7 +22,7 @@ export const Hero = () => {
             className="mb-4"
           >
             <div className="inline-block py-1 px-3 rounded-full bg-secondary text-primary text-sm mb-6 border border-primary/10">
-              Welcome to my portfolio
+              Welcome To My Portfolio
             </div>
           </AnimatedSection>
           
@@ -32,7 +32,7 @@ export const Hero = () => {
             className="mb-6"
           >
             <h1 className="text-heading-1 max-w-3xl text-balance mb-6 tracking-tight gradient-text">
-              Creating digital experiences with attention to detail
+            Mewujudkan Visi Teknologi untuk Masa Depan yang Lebih Canggih
             </h1>
           </AnimatedSection>
           
@@ -42,8 +42,7 @@ export const Hero = () => {
             className="mb-10"
           >
             <p className="text-body-large text-muted-foreground max-w-xl text-balance">
-              I'm a developer and designer passionate about crafting beautiful, 
-              functional, and user-centered digital experiences.
+            I am a Visual Communication Design Teacher and Technology Developer who is passionate about creating innovative, user-focused digital experiences.
             </p>
           </AnimatedSection>
           

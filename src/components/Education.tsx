@@ -13,22 +13,16 @@ export const Education = () => {
   const educationHistory: EducationItem[] = [
     {
       degree: "Master of Computer Science",
-      institution: "Tech University",
-      period: "2018 - 2020",
-      description: "Specialized in Artificial Intelligence and Machine Learning. Conducted research on natural language processing and completed thesis on sentiment analysis algorithms."
+      institution: "Universitas Malikussaleh",
+      period: "2024 - 2026",
+      description: "Specialist in Artificial Intelligence and Machine Learning. Proficient in data governance and IT infrastructure."
     },
     {
       degree: "Bachelor of Science in Computer Science",
-      institution: "National Institute of Technology",
-      period: "2014 - 2018",
-      description: "Graduated with honors. Focused on software engineering, data structures, and algorithms. Participated in multiple hackathons and coding competitions."
+      institution: "Politeknik Negeri Lhokseumawe",
+      period: "2020 - 2024",
+      description: "Graduated with Cumlaude. Focused on Programming, Data Structures, and Algorithms."
     },
-    {
-      degree: "High School Diploma",
-      institution: "Science Academy",
-      period: "2011 - 2014",
-      description: "Completed advanced courses in mathematics, physics, and computer programming. Led the school's robotics club and won regional competitions."
-    }
   ];
 
   return (
