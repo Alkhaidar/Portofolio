@@ -53,7 +53,7 @@ export const About = () => {
             </AnimatedSection>
           </div>
           
-          {/* Image/Profile */}
+          {/* Images/Profile */}
           <div className="order-1 md:order-2">
             <AnimatedSection animation="fade-in" delay={200}>
               <div className="relative">
